@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=MuseoModerno:wght@400;500;600&family=Yellowtail&display=swap');
+
+html {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Yellowtail', sans-serif;
+}
+
+.main-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #232323;
+}
+
+h1 {
+	color: #116134;
+	font-size: 2.5em;
+	text-align:  center;
+}
+.enter {
+	padding: 0 0 20px 20px;
+}
+.enter .quantity-style {
+	font-family: 'MuseoModerno', sans-serif;
+	font-size: 1rem;
+	padding: 16px;
+	width: 250px;
+	border: none;
+	border-radius: 4px;
+	transition: .3s ease-out;
+}
+.enter .quantity-style:focus, .enter .quantity-style:hover {
+	box-shadow: 1px 3px 4px #44444487;
+}
+
+
+.variant {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 20px 40px;
+}
+
+.coffee-name-style {
+	font-family: 'MuseoModerno', sans-serif;
+	font-size: 1rem;
+	background-color: #e9e9e9;
+	padding: 10px;
+	width: 280px;
+	margin: 5px 0;
+	border: none;
+	border-radius: 4px;
+	text-align: left;
+	transition: .3s ease-out;
+}
+.coffee-name-style:hover {
+	box-shadow: 1px 3px 4px #44444487;
+	padding: 10px 20px;
+	width: 300px;
+	background-color: #116134;
+	color: #efefef;
+}
+
+.variant .coffee-name-style:first-child {
+	margin-top: 0;
+}
+.variant .coffee-name-style:last-child {
+	margin-bottom: 0;
+}
+
+.cont-row {
+	display: flex;
+	align-items: flex-start;
+}
+.out-style {
+	font-family: 'MuseoModerno', sans-serif;
+	font-size: 3rem;
+	padding: 0 5px 0 20px;
+}
+.cont-row p {
+	font-family: 'MuseoModerno', sans-serif;
+	font-size: 1.5rem;
+	margin: 0;
+}
+.thx-style {
+	text-align: center;
+	font-family: 'Dancing Script',sans-serif;
+	font-size: 2rem;
+}
+
+.reset-style {
+	font-family: 'MuseoModerno', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	box-shadow: 1px 3px 4px #44444487;
+	padding: 10px 20px;
+	margin-top: 10px;
+	width: 100px;
+	background-color: #116134;
+	color: #e9e9e9;
+	border: none;
+	border-radius: 4px;
+	transition: .3s ease-out;
+}
+
+.reset-style:hover {
+	background-color: #f9f9f9;
+	color: #00000095;
+}
