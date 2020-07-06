@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	background: #f9f7f7;
+	box-sizing: border-box;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+
+.grid-container > .item1 {
+	padding: 40px 60px;
+	color: #222222;
+	font-size: 1rem;
+	font-style: italic;
+}
+.grid-container > .item5 {
+	padding: 40px 60px;
+	background: #202020;
+	color: #f2f2f2;
+}
+.grid-container > .item2 {
+	padding: 20px;
+	background: #202020;
+	color: #f2f2f2;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+}
+
+.grid-container > div {
+	text-align: left;
+	padding: 10px 0;
+	font-size: 30px;
+	position: relative;
+	font-size: 2rem;
+}
+
+.grid-container > .item3 {
+	display: grid;
+	grid-template-columns: auto auto;
+	overflow: hidden;
+
+}
+.grid-container > .item3 > div {
+	width: 100%;
+	max-height: 400px;
+	position: relative;
+	overflow: hidden;
+	border: none;
+	padding: 10px;
+}
+.grid-container > .item3 > div > img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border: none;
+}
