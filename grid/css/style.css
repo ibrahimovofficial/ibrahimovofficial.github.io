@@ -48,7 +48,7 @@ body {
 
 .grid-container > .item3 {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 	overflow: hidden;
 
 }
